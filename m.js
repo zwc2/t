@@ -1,3 +1,4 @@
 console.log('test');
-var a=()=>console.log('test2');
+window.a="global";
+a=()=>console.log('test2');
 a();
