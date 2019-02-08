@@ -1,4 +1,6 @@
-console.log('test');
-window.a=()=>console.log('test2');
+//console.log('test');
+//window.a=()=>console.log('test2');
 //a=()=>console.log('test2'); //doesn't work
-a();
+//a();
+window.z={};
+z.z=()=>console.log('test');
